@@ -2,6 +2,7 @@ resolver: lts-14.27
 packages:
 - '.'
 extra-deps:
-- haskeline-0.8.0.0
+- git: https://github.com/janmasrovira/haskeline.git
+  commit: d8a87ce7a81b8b445a2a016bcc04c72b16b61685
 flags: {}
 extra-package-dbs: []
