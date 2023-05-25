@@ -135,7 +135,7 @@
 -- See <https://github.com/sdiehl/repline> for more examples.
 module System.Console.Repline
   ( -- * Repline Monad
-    HaskelineT,
+    HaskelineT(HaskelineT),
     runHaskelineT,
     mapHaskelineT,
     MonadHaskeline,
